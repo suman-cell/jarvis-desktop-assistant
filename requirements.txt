@@ -1,0 +1,14 @@
+speechrecognition
+pyaudio
+pyttsx3
+gtts
+playsound==1.2.2
+pyautogui
+mss
+pytesseract
+opencv-python
+pillow
+groq
+elevenlabs
+python-dotenv
+tk
