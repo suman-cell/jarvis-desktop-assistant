@@ -27,31 +27,32 @@ Before installing, make sure you have:
 
   ```bash
   python --version
-git clone https://github.com/suman-cell/jarvis-desktop-assistant.git
-cd jarvis-desktop-assistant
+  git clone https://github.com/suman-cell/jarvis-desktop-assistant.git
+  cd jarvis-desktop-assistant
 
-python -m venv .venv
+  python -m venv .venv
 
 # PowerShell (recommended)
-.\.venv\Scripts\Activate.ps1
+
+    .\.venv\Scripts\Activate.ps1
 
 # or Command Prompt
-.\.venv\Scripts\activate.bat
+    .\.venv\Scripts\activate.bat
 
-pip install --upgrade pip
-pip install -r requirements.txt
+    pip install --upgrade pip
+    pip install -r requirements.txt
 
 # Linux/WSL
-touch .env
+    touch .env
 
 # Windows PowerShell
-ni .env
+    ni .env
 
-
-GROQ_API_KEY=your_groq_api_key_here
-ELEVENLABS_API_KEY=your_elevenlabs_api_key_here
-
-python jarvis_gui.py
+# Add your API KEY
+    GROQ_API_KEY=your_groq_api_key_here
+    ELEVENLABS_API_KEY=your_elevenlabs_api_key_here
+# Run 
+    python jarvis_gui.py
 
 
 
